@@ -4,11 +4,15 @@
   "description": "A proxy tool to verify and test headers and parameters are befing forwared to origin",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index.js localhost 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pramendra Gupta <pramendra@gmail.com>",
   "license": "ISC",
   "engines": {
     "node": "6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }

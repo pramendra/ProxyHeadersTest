@@ -1,5 +1,6 @@
 const http = require('http');
-const PORT = 9001;
+const port = require('./port');
+const PORT = port || 9000;
 
 const incommingData = ({url, headers}) => ({url, headers});
 const print = (func, params) => func(params);
