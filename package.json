@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A proxy tool to verify and test headers and parameters are befing forwared to origin",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramendra/ProxyHeadersTest.git"
+  },
   "scripts": {
     "start": "nodemon ./index.js localhost 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
